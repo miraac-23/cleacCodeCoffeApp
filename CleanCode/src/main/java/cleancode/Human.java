@@ -1,16 +1,18 @@
 package cleancode;
 
 import cleancode.weapon.Weapon;
-import cleancode.weapon.WeaponType;
 
+/**
+ * Ortak davranışlara sahip soyut insan sınıfı.
+ * Silah kullanmak ortak bir davranıştır ancak nasıl kullanılacağı alt sınıflara bırakılmıştır.
+ */
 public abstract class Human {
 
-    public String humanName;
-    public Weapon weapon;
+    protected String humanName;
+    protected Weapon weapon;
 
-    public Human(String humanName, Weapon weapon) {
+    public Human(String humanName) {
         this.humanName = humanName;
-        this.weapon = weapon;
     }
 
     public String getHumanName() {
@@ -21,7 +23,6 @@ public abstract class Human {
         return weapon;
     }
 
+    // Her alt sınıf silahı farklı şekilde kullanabilir.
     public abstract void useWeapon();
-
-    public abstract void craftWeapon(WeaponType type);
 }

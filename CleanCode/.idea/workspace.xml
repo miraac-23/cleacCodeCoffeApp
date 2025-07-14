@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be4a9f4e-9ecd-426d-b93b-288a19648c0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/weapon/Knife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/weapon/Riffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/weapon/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/weapon/WeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/Americano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/BaseCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/CaffeLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/DoubleEspresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/HotWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/main/java/org/example/coffe/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cleanCoffe/src/test/java/org/example/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/CleanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/CleanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/CraftsmanHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/CraftsmanHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/WarriorHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/WarriorHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/weapon/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/weapon/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/weapon/WeaponType.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2zp5zl2MOur0XAq3uOwWOeA0de2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/miracguntogar/Downloads/cleancode/CleanCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CleanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cleancode.CleanCode" />
+      <module name="CleanCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cleancode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CleanCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be4a9f4e-9ecd-426d-b93b-288a19648c0a" name="Changes" comment="" />
+      <created>1752415438832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752415438832</updated>
+      <workItem from="1752415439936" duration="5564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

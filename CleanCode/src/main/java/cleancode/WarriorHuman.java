@@ -1,35 +1,25 @@
 package cleancode;
 
 import cleancode.weapon.Weapon;
-import cleancode.weapon.WeaponType;
 
+/**
+ * Bu sınıf savaşçı rolündeki insanı temsil eder.
+ * SRP prensibine uygun olarak sadece silah kullanımı ile ilgilenir.
+ */
 public class WarriorHuman extends Human {
 
     public WarriorHuman(String humanName, Weapon weapon) {
-        super(humanName, weapon);
-    }
-
-    private void printWeapon(Weapon weapon){
-        System.out.println(weapon.getWeaponName());
+        super(humanName);
+        this.weapon = weapon;
     }
 
     @Override
     public void useWeapon() {
-
-        WeaponType type = getWeapon().getType();
-        if (type == WeaponType.knife) {
-            System.out.println(getWeapon().getWeaponName() + " is used by " + humanName);
-        } else if (type == WeaponType.riffle) {
-            System.out.println(getWeapon().getWeaponName() + " is used by " + humanName);
-        } else if (type == WeaponType.sword) {
-            System.out.println(getWeapon().getWeaponName() + "is used by " + humanName);
+        if (weapon == null) {
+            System.out.println(humanName + " savaşacak bir silahı yok.");
         } else {
-            System.out.println("Unknown weapon!");
+            // Polimorfizm sayesinde silahın türüne göre özel kullanım davranışı çalışır.
+            weapon.use(humanName);
         }
-    }
-
-    @Override
-    public void craftWeapon(WeaponType type) {
-
     }
 }
